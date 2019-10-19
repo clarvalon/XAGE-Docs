@@ -1,5 +1,3 @@
-Starts the character moving from its current location to (X,Y), whilst playing his walking animation.
-
 ![Walk](Walk1.png)
 
 If _blocking_ is eNoBlock (the default) then control returns to the script immediately, and the character will move in the background.
@@ -10,8 +8,8 @@ If _walkWhere_ is eWalkableAreas (the default), then the character will attempt 
 
 If _walkWhere_ is eAnywhere, then the character will simply walk directly from its current location to (X,Y), ignoring the room walkable areas.
 
-If you don't want the character's walking animation to play, you can use the [Move](Move) command instead.
+If you don't want the character's walking animation to play, you can use the [Move](#move) command instead.
 
 **NOTE:** this function only works with characters which are on the current screen.
 
-**NOTE:** if you need to find out when the character has reached its destination, use the [Moving](Moving) property.
+**NOTE:** if you need to find out when the character has reached its destination, use the [Moving](#moving) property.
